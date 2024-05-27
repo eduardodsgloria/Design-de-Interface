@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato_layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="fundo">
+            <img src="img/logo_trial.png" alt="Logo">
+
+        </div>
+    </header>
+    <NAV>
+        
+        <div class="navegacao">
+            <ul class="menu">
+                <li><a href="pagina_principal.html">Página principal</a></li>
+                <li><a href="produtos.html">Produtos e serviços</a></li>
+                <li><a href="contato.html">AUtendimento ao cliente</a></li>
+            </ul>
+
+        </div>
+        
+    </NAV>
+
+
+<main>
+    <div class="formulario">
+        <form method="post" action="contatos.php">
+
+            <fieldset>
+
+                <legend>Dados do tutor</legend>
+                    <div class="rotulo">
+                        <label for="Nome">Nome:</label>
+                    </div>
+                    
+                    <div class="campo">
+                        <input type="text" name="Nome" id="Nome" placeholder="Informe o nome do tutor"><br>
+                    </div>
+
+                    <div class="rotulo">    
+                        <label for="telefone">Telefone de contato</label>
+                    </div> 
+                    
+                    <div class="campo">
+                        <input type="tel" name="telefone" id="telefone" placeholder="Informe um telefone"><br>
+                    </div>   
+                    
+                    <div class="rotulo">
+                        <label for="e-mail">E-mail</label>
+                    </div>
+
+                    <div class="campo">
+                        <input type="email" name="e-mail" id="e-mail" placeholder="Informe um e-mail">
+                    </div>    
+            </fieldset>
+                
+            <fieldset>
+                <legend>Dados do cão</legend>
+                    <div class="rotulo">
+                        <label for="nome_do_cao">Nome do cão</label>
+                    </div>    
+                    
+                    <div class="campo">
+                        <input type="text" name="nome_do_cao" id="nome_do_cao" placeholder="Informe o nome do cão">
+                    </div>
+
+                    <div class="rotulo">
+                        <p>Informe o porte do seu cão</p>
+                    </div>
+                        
+                    <div class="campo">
+                        <input type="radio" name="Porte" value="P">Pequeno
+                        <input type="radio" name="Porte" value="M">Medio
+                        <input type="radio" name="Porte" value="G">Grande
+                    </div>   
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Mensagem</legend>
+                    
+                    <div class="campo">
+                        <p>Informe o motivo do contato</p>
+                        <input type="checkbox"  name="motivo" value="reclamacao">Reclamção <br>
+                        <input type="checkbox"  name="motivo" value="elogio">Elogio <br>
+                        <input type="checkbox"  name="motivo" value="duvida">Dúvida <br>
+                    </div>
+
+                    <div class="campo">
+                        <p>Mensagem</p>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
+                        <input type="submit" value="Enviar mensagem">
+                    </div>
+            </fieldset>
+
+        </form>
+    </div>
+
+    <div class="depoimentos">
+
+        
+
+        <figure class="clientes">
+            <img class="img_depoimento" src="img/depoimento_01.jpeg" alt="Depoimento Jack">
+            <figcaption>Jack<br>"No Petinhas me sinto seguro"</figcaption>               
+        </figure>
+        
+        <figure class="clientes">
+            <img class="img_depoimento" src="img/depoimento_02.jpeg" alt="Depoimento Bob">
+            <figcaption>Bob<br>"Aqui a água está sempre quentinha"</figcaption>
+            
+        </figure>
+
+        <figure class="clientes">
+            <img class="img_depoimento" src="img/depoimento_03.jpeg" alt="Depoimento K-9">
+            <figcaption>K-9<br>"Sou tratado como o rei que sou"</figcaption>
+            
+        </figure>
+
+        <figure class="clientes">
+            <img class="img_depoimento" src="depoimento_04.jpeg" alt="Depoimento Hulk">
+            <figcaption>Hulk<br>"Comida e água fresca na hora certa"</figcaption>
+            
+        </figure>
+
+    
+
+    <figure class="clientes">
+        <img class="img_depoimento" src="img/depoimento_05.jpg" alt="Depoimento Pirata">
+        <figcaption>Pirata<br>"Meus pelos estão sempre cheirosos e hidratados"</figcaption>
+        
+    </figure>
+
+    <figure class="clientes">
+        <img class="img_depoimento" src="img/depoimento_06.jpg" alt="Depoimento Bolt">
+        <figcaption>Bolt<br>"Ter um veterinário a disposição faz toda diferença"</figcaption>
+        
+    </figure>
+    </div>
+
+</main>
+
+<div class="redes_sociais">
+    <a href="https://www.facebook.com/" target="_blank">
+    <img src="img/facebook.png" alt="Facebook" >
+    </a>
+
+    <a href="https://instagram.com/" target="_blank">
+    <img src="img/instagram.png" alt="Instagram">
+    </a>
+    
+    <a href="https://web.whatsapp.com/" target="_blank">
+    <img src="img/whatsapp.png" alt="Whatsapp">
+    </a>
+
+</div>
+
+<footer>
+    
+    <div class="left_footer">
+        <div class="informacoes_legais">
+            <p>CNPJ 12.345.678/0000-12</p>
+            <p>Endereço: Rua dos Pets, nº 100, Centro, Rio Grande-RS</p>
+            <p>Registro junto ao Conselho Regional de Medicina Veterinária Nº 1234567</p>
+        </div>
+    </div>
+
+    
+    <div class="right_footer">
+        <div class="formas_pagamento">
+            <h3>Formas de pagamento</h3>
+            
+            <img src="img/Cartao.svg" alt="Cartao de credito">
+            <img src="img/boleto.svg" alt="Boleto"> 
+            <img src="img/pix.svg" alt="PIX"> 
+        </div>
+    </div>
+</footer>
+</body>
+
+    
