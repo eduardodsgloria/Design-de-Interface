@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+}
+header{
+    display: flex;
+    height: 318px;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    justify-content: center;
+    background-color: #4d2f41;
+    
+    
+    
+}
+
+.fundo img{
+    width:100%;
+    height:100%;
+    align-self: center;
+
+}
+
+nav{
+    display: flex;
+    width: auto;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    align-self: center;
+
+
+
+
+}
+.navegacao{
+    display: flex;
+    width:100%;
+    background-color: #EE5EBD;
+    height: 75px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu li{
+    display:inline ;
+    align-self: center;
+    font-size: 24px;
+    margin: 20px;
+    width: auto;
+}
+.banners{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 600px 600px 600px ;
+    padding: 15px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: auto;   
+    
+}
+
+.imagem img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 38px;
+    
+    
+}
+
+.texto {
+    align-self: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+
+
+}
+footer p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.pre-footer{
+    display: flex;
+    background-color: #D9D9D9;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+    gap:80px ;
+    width: auto;
+    padding: 15px;
+    
+
+}
+
+.prefooter_left{
+    display: block;
+    width: 100%;
+    
+}
+
+.prefooter_right{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50px auto;
+    align-self: center;
+    column-gap: 10px;
+    align-items: center;
+    margin-left: 170px;
+    padding: 15px;
+    
+    
+}
+
+.prefooter_right p{
+    text-align: left;
+  
+}
+
+.prefooter_right img {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    width: 100%;
+    justify-items: center;
+}
+
+.redes_sociais{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.redes_sociais img{
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+footer{
+    display: flex;
+    background-color:#D055B5 ;
+    color: white;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.left_footer{
+    width: 100%;
+}
+.right_footer{
+   width: 100%;
+    text-align: center;
+
+}
+.right_footer img{
+    
+    width: 70px;
+    height: 70px;
+    
+}
+
+@media screen and (max-width: 826px){
+
+    p{
+        font-size:14px;
+        
+
+}
+    h2 {
+        font-size: 32px;
+    }
+
+    
+}
+
+@media screen and (max-width: 760px) {
+    
+  
+
+    .banners {
+    display: flex;
+    flex-direction:column;
+   
+}
+    .imagem2{
+    order: 3;
+}
+
+    .texto2{
+    order: 4;
+}   
+    .imagem3{
+    order: 7;
+}
+    .texto3{
+    order: 7;
+}
+    .texto4{
+    order: 8;
+}
+    .imagem4{  
+    order: 7;
+}
+    .prefooter_right{
+        margin-left:70px ;
+}
+}
+@media screen and (max-width: 658px){
+    
+    p{
+        font-size:14px;
+
+}
+    h2 {
+        font-size: 32px;
+    }    
+    
+    .pre-footer{
+        gap: 40px;
+    }
+    .prefooter_right{  
+        margin-left: 5px;
+
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    p{
+        font-size:14px;
+
+}
+    h2 {
+        font-size: 32px;
+    }    
+    
+    .left_footer p{
+        font-size: 14px;
+    }
+    
+    .navegacao ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        margin: 15px;
+             
+        
+    }
+
+    .imagem1{
+        margin-top: 75px;
+     }
+
+     .navegacao{
+        height: 100%;
+     }
+}
+
+@media screen and (min-width: 360px) and (max-width: 514px){
+    .pre-footer{
+        flex-direction: column;
+    }
+    .left_footer p{
+        font-size: 14px;
+
+    }
+    .right_footer h3{
+        font-size: 14px;
+    }
+    .right_footer img{
+        width: 50px;
+        height: 50px;
+    }
+}

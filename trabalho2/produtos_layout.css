@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    
+    flex-direction: row;
+    font-family: Raleway;
+}
+
+
+
+header{
+    display: flex;
+    height: 318px;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: #4d2f41;
+    
+}
+
+.fundo img{
+    width:100%;
+    height:100%;
+    align-self: center;
+
+}
+
+nav{
+    display: flex;
+    width: auto;
+    
+}
+.navegacao{
+    display: flex;
+    width:100%;
+    background-color: #EE5EBD;
+    height: 75px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}    
+
+.menu li{
+    display:inline ;
+    align-self: center;
+    font-size: 24px;
+    margin: 20px;
+    width: auto;
+}
+
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content:center ;
+    margin-top: 60px;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    
+    
+    
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 800px;
+    border-style: solid;
+    border-color: #D9D9D9;
+    border-width: 1px;
+    margin: 20px;
+    align-items: center;
+    box-shadow:10px 10px 20px;
+    color: rgba(0, 0, 0, 0.63);
+    
+}
+
+h1{
+    font-size: 24px;
+}
+
+.cabecalho_item{
+    
+    background-color: #4D2F41;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+
+.fotos_produto {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    
+
+    
+}
+
+.foto_prods {
+    width: 100%;
+    height: 100%;
+}
+
+.frame_foto{
+    display: flex;    
+    background-color: #EE5EBD;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
+
+.descricao_produtos{
+    display: flex;
+    
+    
+}
+.descricao_itens{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    list-style-type:disc;
+    margin-top: 50px;
+    width: 100%;
+    
+    
+}
+
+li{
+    margin: 10px;
+    font-size: 16px;
+}
+
+
+
+
+.portes_pmg{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+.botao_comprar{
+    
+    background-color: #EE5EBD;
+    border-radius: 5px;
+    align-self: center;
+    font-size: 22px;
+    box-shadow:10px 10px 20px rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 0cap;
+    margin: 15px;
+    font-size: 16px;
+    
+}
+
+.porte{
+    
+    background-color: #492D3E;
+    border-radius: 5px;
+    justify-items: center;
+    font-size: 24px;
+    box-shadow:10px 10px 20px rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 0cap;
+    width: 50%;
+    
+
+
+    
+}
+
+.redes_sociais{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.redes_sociais img{
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+footer{
+    display: flex;
+    background-color:#D055B5 ;
+    color: white;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.left_footer{
+    width: 100%;
+}
+.right_footer{
+   width: 100%;
+    text-align: center;
+
+}
+.right_footer img{
+    
+    width: 70px;
+    height: 70px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .navegacao ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        margin: 15px;
+             
+        
+    }
+
+    .imagem1{
+        margin-top: 75px;
+     }
+
+     .navegacao{
+        height: 100%;
+     }
+
+     .left_footer p{
+        font-size: 14px;
+}
+
+@media screen and (max-width: 1134px){
+    
+    
+    .item{
+        width: auto;
+    }
+    
+}
+
+
+
+
+
